@@ -1,5 +1,6 @@
 body {
-  background-color: #282c34;
+  /* background-color: #92D4F7; */
+  background-image: url("/Users/heem/Creative Cloud Files/cloudchatbackgroud.png");
 }
 
 .App {
@@ -9,7 +10,7 @@ body {
 }
 
 .App header {
-  background-color: #181717;
+  background-color: #92D4F7;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -30,7 +31,8 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #92D4F7;
+  /* background-color: rgb(40, 37, 53); */
 }
 
 main {
@@ -51,7 +53,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #92D4F7;
 }
 
 form {
@@ -124,6 +126,10 @@ p {
   position: relative;
   color: white;
   text-align: center;
+}
+
+#warning {
+  margin: 0 auto;
 }
 
 .message {
